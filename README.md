@@ -4,7 +4,7 @@
 ```bash
 cd src/WebInterface/Resource/application-web/
 
-bin console server:run 
+bin/console server:run 
 ```
 
 
