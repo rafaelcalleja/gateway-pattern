@@ -1,0 +1,27 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+
+review_show:
+    path: /review/show/{review}
+    controller: App\Controller\DefaultController::reviewShow
+
+recommendation_create:
+    path: /recommendation/create/{recommendation}/{text}
+    controller: App\Controller\DefaultController::recommendationCreate
+
+catalog_show:
+    path: /catalog/show/{catalog}
+    controller: App\Controller\DefaultController::catalogShow
+
+catalog_add:
+    path: /catalog/add/{catalog}/{text}
+    controller: App\Controller\DefaultController::catalogCreate
+
+recommendation_error:
+    path: /recommendation/error
+    controller: App\Controller\DefaultController::recommendationError
+
+catalog_error:
+    path: /catalog/error
+    controller: App\Controller\DefaultController::catalogError

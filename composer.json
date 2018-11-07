@@ -1,0 +1,11 @@
+{
+    "psr-4": {
+        "Catalog\\": "src/Catalog",
+        "Recommendation\\": "src/Recommendation",
+        "Review\\": "src/Review",
+        "WebInterface\\": "src/WebInterface"
+    },
+    "require": {
+        "symfony/http-foundation": "^4.1"
+    }
+}
