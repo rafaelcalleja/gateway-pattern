@@ -1,5 +1,12 @@
 # gateway-pattern
 
+### run server
+```bash
+cd src/WebInterface/Resource/application-web/
+
+bin console server:run 
+```
+
 
 https://martinfowler.com/eaaCatalog/gateway.html
 
