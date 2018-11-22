@@ -2,6 +2,8 @@
 
 ### run server
 ```bash
+composer install
+
 cd src/WebInterface/Resource/application-web/
 
 bin/console server:run 
