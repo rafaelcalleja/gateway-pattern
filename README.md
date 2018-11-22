@@ -6,6 +6,8 @@ composer install
 
 cd src/WebInterface/Resource/application-web/
 
+composer install
+
 bin/console server:run 
 ```
 
